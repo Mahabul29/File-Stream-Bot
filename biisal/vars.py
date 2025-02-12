@@ -15,8 +15,8 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
+    API_ID = int(getenv('API_ID', '5733685945'))
+    API_HASH = str(getenv('API_HASH', '679f843b6d9485bead1b81852a9634f4'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
     PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
     name = str(getenv('name', 'linkstreamrobot'))
@@ -30,7 +30,7 @@ class Var(object):
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'TechifyRahul'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Mahabul201'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
