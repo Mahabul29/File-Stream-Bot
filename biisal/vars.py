@@ -15,13 +15,13 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '5733685945'))
+    API_ID = int(getenv('API_ID', '23787292'))
     API_HASH = str(getenv('API_HASH', '679f843b6d9485bead1b81852a9634f4'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
+    PICS = (environ.get('PICS', 'https://www.uhdpaper.com/2023/07/genshin-impact-furina-game-4k-161m.html')).split()
     name = str(getenv('name', 'EvaFile_To_Link_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '4'))
+    WORKERS = int(getenv('WORKERS', '77777775566'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002329870856'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002485776908'))
     PORT = int(getenv('PORT', '8080'))
