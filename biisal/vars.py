@@ -21,12 +21,12 @@ class Var(object):
     PICS = (environ.get('PICS', 'https://www.uhdpaper.com/2023/07/genshin-impact-furina-game-4k-161m.html')).split()
     name = str(getenv('name', 'EvaFile_To_Link_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '77777775566'))
+    WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002329870856'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002485776908'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-    PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+    PING_INTERVAL = int(environ.get("PING_INTERVAL", "120000"))  # 20 minutes
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5733685945").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
