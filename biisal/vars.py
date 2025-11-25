@@ -19,10 +19,10 @@ class Var(object):
     API_HASH = str(getenv('API_HASH', '679f843b6d9485bead1b81852a9634f4'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
     PICS = (environ.get('PICS', 'https://www.uhdpaper.com/2023/07/genshin-impact-furina-game-4k-161m.html')).split()
-    name = str(getenv('name', 'EvaFile_To_Link_Bot'))
+    name = str(getenv('name', 'File_To_Link2_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002265871952'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002378418888'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002485776908'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -51,3 +51,4 @@ class Var(object):
     SHORTLINK = is_enabled('SHORTLINK', False)
     SHORTLINK_URL = getenv('SHORTLINK_URL', '')
     SHORTLINK_API = getenv('SHORTLINK_API', '')
+
