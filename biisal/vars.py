@@ -22,7 +22,7 @@ class Var(object):
     name = str(getenv('name', 'File_To_Link2_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002485776908'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002378418888'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002384901959'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -51,6 +51,7 @@ class Var(object):
     SHORTLINK = is_enabled('SHORTLINK', False)
     SHORTLINK_URL = getenv('SHORTLINK_URL', '')
     SHORTLINK_API = getenv('SHORTLINK_API', '')
+
 
 
 
