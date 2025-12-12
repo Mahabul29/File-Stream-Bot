@@ -169,8 +169,8 @@ async def channel_receive_handler(bot, broadcast):
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ꜱᴛʀᴇᴀᴍ 🔺", url=stream),
-                 InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🔻", url=download)]
+                [InlineKeyboardButton("𝚂𝚎𝚛𝚟𝚎𝚛 1 🔺", url=stream),
+                 InlineKeyboardButton("𝚂𝚎𝚛𝚟𝚎𝚛 2  🔺", url=download)]
             ])
         )
     except FloodWait as w:
@@ -182,3 +182,4 @@ async def channel_receive_handler(bot, broadcast):
     except Exception as e:
         await bot.send_message(chat_id=Var.BIN_CHANNEL, text=f"**#ERROR_TRACKEBACK:** `{e}`", disable_web_page_preview=True)
         print(f"Cᴀɴ'ᴛ Eᴅɪᴛ Bʀᴏᴀᴅᴄᴀsᴛ Mᴇssᴀɢᴇ!\nEʀʀᴏʀ:  **Give me edit permission in updates and bin Channel!{e}**")
+
