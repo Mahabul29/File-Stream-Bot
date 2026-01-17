@@ -9,7 +9,7 @@ import logging
 import importlib
 from pathlib import Path
 from pyrogram import idle
-from .bot import StreamBot
+from biisal.bot import StreamBot
 from .vars import Var
 from aiohttp import web
 from .server import web_server
@@ -89,3 +89,4 @@ if __name__ == '__main__':
         loop.run_until_complete(start_services())
     except KeyboardInterrupt:
         logging.info('----------------------- Service Stopped -----------------------')
+
